@@ -1,6 +1,6 @@
 from flask import Flask,render_template,redirect,request
 
-from usuario import Usuario
+from controllers.usuario import Usuario
 
 app = Flask(__name__)
 
